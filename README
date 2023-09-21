@@ -2,3 +2,4 @@ The two files in this repo are used to for computational results in 'Covariance 
 
 The file matrixcomp.mlx is a MATLAB file used to compute the covariance and correlation for Theorem 1 and Corollary 1 of the paper. The Markov Transition matrix discussed in the paper can be found in here, as well as appropriate steps to obtain the exact formulas of limiting correlation and covariance.
 
+The file Definitions.py can be used to reproduce the simulation plots found in the paper. By simply calling the method run_trails and passing the parameters: initial state, selfing probability, recombination probability, population size, one can simulate obtain simulated values for Ti, Tj (the coalesence times of the pair of loci). By running multiple trials and plotting the results for multiple initial conditions one can obtain all the simulation plots that are in the paper.
